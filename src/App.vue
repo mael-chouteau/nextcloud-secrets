@@ -49,9 +49,7 @@
 			<Secret v-else-if="currentSecret"
 				v-model="currentSecret"
 				:locked="locked"
-				:success="t('secrets', 'Your secret is stored end-to-end encrypted on the server. ' +
-					'It can only be decrypted by someone who has been given the link.\n' +
-					'Once retrieved successfully, the secret will be deleted on the server')" />
+				:success="t('secrets', 'Your secret is stored end-to-end encrypted on the server. It can only be decrypted by someone who has been given the link.\n Once retrieved successfully, the secret will be deleted on the server')" />
 			<div v-else id="emptycontent">
 				<div class="icon-file" />
 				<h2>{{ t('secrets', 'Create a secret to get started') }}</h2>
