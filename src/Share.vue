@@ -11,8 +11,7 @@
 				<div>
 					<NoteCard type="warning">
 						<p>
-							{{ t('secrets', 'Please make sure you have copied and stored the secret ' +
-								'before closing this page! It is now deleted on the server.') }}
+							{{ t('secrets', 'Please make sure you have copied and stored the secret before closing this page! It is now deleted on the server.') }}
 						</p>
 					</NoteCard>
 				</div>
